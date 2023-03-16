@@ -1,0 +1,18 @@
+.Nav{
+    background-color: rgb(44, 106, 106);
+    border: 2px solid green;
+    height: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+    
+}
+.Link{
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+.Link:hover{
+    color: rgb(96, 150, 104);
+}
+

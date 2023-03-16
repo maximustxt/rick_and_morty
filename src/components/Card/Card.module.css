@@ -1,0 +1,56 @@
+ .boton{
+    border-radius: 10px;
+    border: 1px solid black;
+
+    background-color: rgb(214, 87, 87);
+    width:fit-content;
+    height: fit-content;
+}
+.boton:hover{
+    background-color: rgb(246, 0, 0);
+    color: white;
+
+}
+
+.img{
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.caracter{
+    font-size: 15px;
+    color: rgb(234, 255, 0);
+    
+} 
+
+.contenedor{
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    border-radius: 10px ;
+    border: 1px solid white;
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.contenedor:hover{    
+    box-shadow: -2px -10px 104px 89px rgba(0,255,72,0.21);
+    -webkit-box-shadow: -2px -10px 104px 89px rgba(0,255,72,0.21);
+    -moz-box-shadow: -2px -10px 104px 89px rgba(0,255,72,0.21);
+}
+
+.Link{
+    text-decoration: none;
+    color: rgb(238, 255, 0);
+    font-size: 15px;
+}
+.Link:hover{
+    color: aquamarine;
+}
+
+.boton11{
+   background-color: transparent;
+   border: 0px;
+}
