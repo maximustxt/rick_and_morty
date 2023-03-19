@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { orderCards,filterCards } from "../../redux/actions";
 import Card from "../Card/Card";
+import styles from "../Favoritos/Favorites.module.css";
 
 class Favorite extends React.Component{
     constructor(props){
@@ -21,11 +22,11 @@ class Favorite extends React.Component{
 
         return (<div>
                       <div>
-                        <select name="name" onChange={funcionOrder}>
+                        <select className={styles.select} name="name" onChange={funcionOrder}>
                         <option value="Descendente">Descendente</option>
                         <option value="Ascendente">Ascendente</option>
                         </select>
-                        <select name="name" onChange={Funcionfilter}>
+                        <select  className={styles.select}  name="name" onChange={Funcionfilter}>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                         <option value="Genderless">Genderless</option>

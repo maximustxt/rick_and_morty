@@ -32,7 +32,7 @@ axios(`${URL}/character/${detailId}?key=${KEY}`)
          <button className={styles.boton}>Home</button>
          </Link> 
          </div>)
-         : <h3>Loading...</h3>
+         : <h3 className={styles.h3} >Loading...</h3>
       }  
      </div>
    )

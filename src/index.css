@@ -1,5 +1,7 @@
 body {
-  background-image: url("https://www.xtrafondos.com/wallpapers/rick-y-morty-en-universo-de-dragon-ball-6401.jpg");
+  background-image: url("https://img.freepik.com/vector-premium/fondo-cielo-nocturno-muchas-estrellas_135176-451.jpg");
+  /* background-image:url("https://i.ytimg.com/vi/Dfu5mAXy0J4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-DoACuAiKAgwIABABGFAgZShNMA8=&rs=AOn4CLBNG_W5RKX401VR4arOsj6_NRMJ2g") ; */
+  /* background-image: url("https://www.xtrafondos.com/wallpapers/rick-y-morty-en-universo-de-dragon-ball-6401.jpg"); */
   background-repeat: no-repeat; 
   background-size: cover;
   margin: 0;
@@ -13,4 +15,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.div{
+  
 }

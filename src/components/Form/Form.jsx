@@ -20,9 +20,10 @@ const Form = ({login}) => {
 return (
     <div  className={styles.div2}>
     <div className={styles.div}>
+      <h1>REGISTRO</h1>
         <form onSubmit={SubmitHandel}> {/*Es un eventp de formulario no de button..*/}
             <div className={styles.div1}>
-            <label htmlFor="username">Username: </label>
+            <label className={styles.label} htmlFor="username">Username : </label>
                 <input placeholder="Escribir email aqui..."
                 value={userData.username}
                 type="text" 
@@ -34,7 +35,7 @@ return (
 
             </div>
             <div className={styles.div1}>
-            <label htmlFor="password">Password: </label>
+            <label className={styles.label} htmlFor="password">Password : </label>
                 <input placeholder="Escribir contraseña aqui..."
                 value = {userData.password} 
                 type="text"
@@ -44,7 +45,7 @@ return (
                 ></input>
                 <span className={styles.span}>{errores.password}</span> 
             </div>
-        <button type="submit">Login</button>
+        <button className={styles.boton} type="submit">Login</button>
         </form>
     </div>
     </div>

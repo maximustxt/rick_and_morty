@@ -63,7 +63,7 @@ const {pathname} = useLocation();
     <div className='App' style={{ padding: '25px' }}>
       {pathname !== "/" && <Nav onSearch = {onSearch} />} {/*Esto es lo que siempre se va a mantener en todos los servidores vigente , pero usamos el hook useLocation para obtener una propiedad que es el nombre de una ruta , la usamos como condicion diciendole que si pathname mo es igual que la ruta de nuestra querido formulario , entonces que se muestre nav en el resto de rutas menos en ese..*/}
       <Routes>
-        <Route path='/favorites' element={<Favorites/>} ></Route>
+      <Route path='/favorites' element={<Favorites/>} ></Route>
       <Route path='/about' element={<About/>} /> 
       <Route path='/home' element={<Cards
       characters={characters}

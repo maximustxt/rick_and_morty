@@ -42,6 +42,7 @@ import { useEffect } from "react";
             
                  return (
                         <div className={styles.contenedor}>
+                            <div className={styles.divBoton}  >
                              {
                         isFav ? (
                                <button  className={styles.boton11} onClick={handleFavorite}>❤️</button>
@@ -50,6 +51,7 @@ import { useEffect } from "react";
                                 )
                              }
                                          <button className={styles.boton} onClick={()=>onClose(id)}>X</button>
+                            </div>
                                           <Link to={`/detail/${id}`} className={styles.Link}>  
                                          <h2>Nombre: {name}</h2>
                                          </Link> 
@@ -88,44 +90,4 @@ export default connect(mapStateToProps,mapDispatchToProps)(Card);
                             
     {/* <Link to={`/detail/${id}`}> esto seria que cuando aga clic en el link me va aparecer el id de cada personaje en un nuevo servidor o Ruta*/}
     {/* pagina the shadow css generator es super util*/}
-    // class Card extends React.Component{
-    //     constructor(props){
-    //         super(props)
-    //         this.state = {
-    //             isFav: false,
-    //         }
-    //     }
-    //     componentDidMount(){
-    //         this.props.myFavorite.forEach(char => {
-    //              if(char.id === this.props.id){
-    //                  this.setState(true);
-    //              }
-    //         });
-    //      }
-    
-    // // componentDidMount es un metodo de las class que sirve cuando el componente se monta se ejecuta esta funcion..
-    
-    //     render(){
-    //         const  handleFavorite = () => {
-    //             if(this.state.isFav === true){
-    //                 this.setState(false);
-    //                 this.props.deleteFavorite(this.props.id); // aca le pasamos el id..
-    //             } else {
-    //                 this.setState(true);
-    //                 this.props.addFavorite(this.props); // aca traemos el personaje completo : porque props ===> {con todas las propiedades del mismo}.S
-    //             }
-    //         }
-    //         return (
-    //         <div className={styles.contenedor}>
-    //             {this.state.isFav ? (<button  className={styles.boton1}  onClick={handleFavorite}>❤️</button>) : (<button className={styles.boton1}  onClick={handleFavorite}>🤍</button>)}
-    //             <button className={styles.boton} onClick={()=>this.props.onClose(this.props.id)}>X</button>
-    //              <Link to={`/detail/${this.props.id}`} className={styles.Link}>  
-    //             <h2>Nombre: {this.props.name}</h2>
-    //             </Link> 
-    //             <h2 className={styles.caracter} >Specie: {this.props.species}</h2>
-    //             <h2 className={styles.caracter} >Genero: {this.props.gender}</h2>
-    //             <img  className={styles.img} src={this.props.image} alt=""/>
-    //         </div>
-    //         )
-    //     }
-    // }
+   
