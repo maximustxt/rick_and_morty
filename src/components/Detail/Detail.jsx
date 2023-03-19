@@ -29,7 +29,7 @@ axios(`${URL}/character/${detailId}?key=${KEY}`)
          </div>
          <img  className={styles.imagen} src={character.image} />
          <Link to={"/home"}>
-         <button className={styles.boton}>Home</button>
+         <button className={styles.boton}>←</button>
          </Link> 
          </div>)
          : <h3 className={styles.h3} >Loading...</h3>
