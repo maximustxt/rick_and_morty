@@ -1,0 +1,32 @@
+.select {
+  height: 30px;
+  color: black;
+  background-color: yellow;
+}
+.div {
+  box-shadow: -1px -1px 20px 0 rgb(122, 221, 102),
+    4px 4px 16px 10px rgb(92, 162, 235);
+  background: transparent;
+  border: 3px solid black;
+  margin: 40px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.divPadre {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.imagen {
+  border-radius: 70px;
+}

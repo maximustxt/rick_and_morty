@@ -1,0 +1,19 @@
+.boton {
+  border-radius: 0px;
+  background-color: rgb(71, 181, 181);
+  color: black;
+  width: fit-content;
+  height: 2.5em;
+  border: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+.boton:hover {
+  border: 1px solid white;
+}
+
+.input {
+  width: 200px;
+  height: 2.5em;
+  border-radius: 10px 0px 0px 10px;
+  border: 0px;
+}

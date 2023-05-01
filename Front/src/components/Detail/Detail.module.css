@@ -1,0 +1,63 @@
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px;
+}
+
+.div2 {
+  box-shadow: -1px -1px 20px 0 rgb(122, 221, 102),
+    4px 4px 16px 10px rgb(92, 162, 235);
+  background: transparent;
+  border: 3px solid black;
+  margin: 20px;
+  display: flex;
+  width: 1000px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.div2:hover {
+  box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66,
+    0px 0px 24px 2px rgb(221, 197, 102);
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin: 30px;
+}
+
+.imagen {
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 380px;
+  border-radius: 50%;
+  margin: 15px;
+}
+.imagen:hover {
+  box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+}
+
+.boton {
+  border-radius: 3px;
+  background-color: rgb(214, 87, 87);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.boton:hover {
+  background-color: rgb(246, 0, 0);
+  color: white;
+}
+
+.h3 {
+  font-size: 35px;
+  color: white;
+}
